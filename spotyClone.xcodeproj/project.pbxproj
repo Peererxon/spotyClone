@@ -56,6 +56,7 @@
 		5ACD17252C096BB100EAC3A5 = {
 			isa = PBXGroup;
 			children = (
+				5A792F362C0AC53E00066565 /* README.md */,
 				5ACD17302C096BB100EAC3A5 /* spotyClone */,
 				5ACD172F2C096BB100EAC3A5 /* Products */,
 			);
@@ -84,7 +85,6 @@
 				5ACD17382C096BB200EAC3A5 /* Preview Content */,
 				5AD507252C0A717C00463C48 /* Login.swift */,
 				5AD507232C0A717000463C48 /* Home.swift */,
-				5A792F362C0AC53E00066565 /* README.md */,
 			);
 			path = spotyClone;
 			sourceTree = "<group>";
