@@ -21,6 +21,7 @@ SwiftUI/IOS 17.5
 
 * [Medium tutorial](https://medium.com/mop-developers/build-your-first-swiftui-app-part-3-create-the-login-screen-334d90ef1763)
 * [Firebase Documentation for auth in IOS](https://firebase.google.com/docs/auth/ios/google-signin#:~:text=Select%20your%20app%20from%20the,look%20for%20the%20REVERSED_CLIENT_ID%20key.)
+* [SwiftTUI tutorial for beginner 12H](https://www.youtube.com/watch?v=b1oC7sLIgpI&t=487s) IOS 15 and 16
 
 # Future Work
 
