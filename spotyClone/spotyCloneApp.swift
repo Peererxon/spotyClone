@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import FirebaseCore
+import GoogleSignIn
 
 @main
 struct spotyCloneApp: App {
+    
+    init() {
+        //firebase init
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().onOpenURL { url in
+                //Handle Google Oauth URL
+                GIDSignIn.sharedInstance.handle(url)
+            }
         }
     }
 }

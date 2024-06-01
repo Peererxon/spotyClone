@@ -6,16 +6,30 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 struct ContentView: View {
+    @State private var userLoggedIn = (Auth.auth().currentUser != nil)
+    @StateObject private var loginViewModel = LoginViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+            if (userLoggedIn || loginViewModel.mockAuth ) {
+                        Home()
+                    } else {
+                        Login().environmentObject(loginViewModel)
+                    }
+                }.onAppear{
+                    //Firebase state change listeneer
+                    Auth.auth().addStateDidChangeListener{ auth, user in
+                        if (user != nil) {
+                            userLoggedIn = true
+                        } else {
+                            userLoggedIn = false
+                        }
+                    }
+                }
+
     }
 }
 

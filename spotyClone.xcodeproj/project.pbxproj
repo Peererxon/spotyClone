@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1CAC482C0973BE0022B0C7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5A1CAC472C0973BE0022B0C7 /* FirebaseAuth */; };
+		5A792F352C0AB81300066565 /* mario-slide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A792F342C0AB81300066565 /* mario-slide.mp3 */; };
+		5AB2A3C32C0A6C8D0059DFE8 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 5AB2A3C22C0A6C8D0059DFE8 /* GoogleSignIn */; };
+		5AB2A3C52C0A6C8D0059DFE8 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5AB2A3C42C0A6C8D0059DFE8 /* GoogleSignInSwift */; };
+		5AB2A3CA2C0A6E800059DFE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AB2A3C92C0A6E800059DFE8 /* GoogleService-Info.plist */; };
 		5ACD17322C096BB100EAC3A5 /* spotyCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD17312C096BB100EAC3A5 /* spotyCloneApp.swift */; };
 		5ACD17342C096BB100EAC3A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD17332C096BB100EAC3A5 /* ContentView.swift */; };
 		5ACD17362C096BB200EAC3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD17352C096BB200EAC3A5 /* Assets.xcassets */; };
 		5ACD173A2C096BB200EAC3A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACD17392C096BB200EAC3A5 /* Preview Assets.xcassets */; };
+		5AD507242C0A717000463C48 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD507232C0A717000463C48 /* Home.swift */; };
+		5AD507262C0A717C00463C48 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD507252C0A717C00463C48 /* Login.swift */; };
+		5AD507282C0A75CD00463C48 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD507272C0A75CC00463C48 /* Authentication.swift */; };
+		5AD5072A2C0AA9A900463C48 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD507292C0AA9A900463C48 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A792F342C0AB81300066565 /* mario-slide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mario-slide.mp3"; path = "../../../../../../Downloads/mario-slide.mp3"; sourceTree = "<group>"; };
+		5A792F362C0AC53E00066565 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5AB2A3C62C0A6CB40059DFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5AB2A3C92C0A6E800059DFE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5ACD172E2C096BB100EAC3A5 /* spotyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACD17312C096BB100EAC3A5 /* spotyCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotyCloneApp.swift; sourceTree = "<group>"; };
 		5ACD17332C096BB100EAC3A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5ACD17352C096BB200EAC3A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ACD17372C096BB200EAC3A5 /* spotyClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = spotyClone.entitlements; sourceTree = "<group>"; };
 		5ACD17392C096BB200EAC3A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AD507232C0A717000463C48 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5AD507252C0A717C00463C48 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		5AD507272C0A75CC00463C48 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		5AD507292C0AA9A900463C48 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB2A3C52C0A6C8D0059DFE8 /* GoogleSignInSwift in Frameworks */,
+				5A1CAC482C0973BE0022B0C7 /* FirebaseAuth in Frameworks */,
+				5AB2A3C32C0A6C8D0059DFE8 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +72,19 @@
 		5ACD17302C096BB100EAC3A5 /* spotyClone */ = {
 			isa = PBXGroup;
 			children = (
+				5A792F342C0AB81300066565 /* mario-slide.mp3 */,
+				5AD5072B2C0AA9B100463C48 /* ViewModel */,
+				5AB2A3C92C0A6E800059DFE8 /* GoogleService-Info.plist */,
+				5AB2A3C62C0A6CB40059DFE8 /* Info.plist */,
+				5AD507272C0A75CC00463C48 /* Authentication.swift */,
 				5ACD17312C096BB100EAC3A5 /* spotyCloneApp.swift */,
 				5ACD17332C096BB100EAC3A5 /* ContentView.swift */,
 				5ACD17352C096BB200EAC3A5 /* Assets.xcassets */,
 				5ACD17372C096BB200EAC3A5 /* spotyClone.entitlements */,
 				5ACD17382C096BB200EAC3A5 /* Preview Content */,
+				5AD507252C0A717C00463C48 /* Login.swift */,
+				5AD507232C0A717000463C48 /* Home.swift */,
+				5A792F362C0AC53E00066565 /* README.md */,
 			);
 			path = spotyClone;
 			sourceTree = "<group>";
@@ -67,6 +95,14 @@
 				5ACD17392C096BB200EAC3A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AD5072B2C0AA9B100463C48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5AD507292C0AA9A900463C48 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +121,11 @@
 			dependencies = (
 			);
 			name = spotyClone;
+			packageProductDependencies = (
+				5A1CAC472C0973BE0022B0C7 /* FirebaseAuth */,
+				5AB2A3C22C0A6C8D0059DFE8 /* GoogleSignIn */,
+				5AB2A3C42C0A6C8D0059DFE8 /* GoogleSignInSwift */,
+			);
 			productName = spotyClone;
 			productReference = 5ACD172E2C096BB100EAC3A5 /* spotyClone.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +154,10 @@
 				Base,
 			);
 			mainGroup = 5ACD17252C096BB100EAC3A5;
+			packageReferences = (
+				5A1CAC462C0973BE0022B0C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5AB2A3C12C0A6C8D0059DFE8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 5ACD172F2C096BB100EAC3A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +174,8 @@
 			files = (
 				5ACD173A2C096BB200EAC3A5 /* Preview Assets.xcassets in Resources */,
 				5ACD17362C096BB200EAC3A5 /* Assets.xcassets in Resources */,
+				5AB2A3CA2C0A6E800059DFE8 /* GoogleService-Info.plist in Resources */,
+				5A792F352C0AB81300066565 /* mario-slide.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +187,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ACD17342C096BB100EAC3A5 /* ContentView.swift in Sources */,
+				5AD507242C0A717000463C48 /* Home.swift in Sources */,
+				5AD5072A2C0AA9A900463C48 /* LoginViewModel.swift in Sources */,
 				5ACD17322C096BB100EAC3A5 /* spotyCloneApp.swift in Sources */,
+				5AD507282C0A75CD00463C48 /* Authentication.swift in Sources */,
+				5AD507262C0A717C00463C48 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +323,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"spotyClone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spotyClone/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -308,6 +360,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"spotyClone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spotyClone/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -355,6 +408,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A1CAC462C0973BE0022B0C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+		5AB2A3C12C0A6C8D0059DFE8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A1CAC472C0973BE0022B0C7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A1CAC462C0973BE0022B0C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5AB2A3C22C0A6C8D0059DFE8 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AB2A3C12C0A6C8D0059DFE8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		5AB2A3C42C0A6C8D0059DFE8 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AB2A3C12C0A6C8D0059DFE8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5ACD17262C096BB100EAC3A5 /* Project object */;
 }
